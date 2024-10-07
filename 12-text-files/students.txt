@@ -1,0 +1,5 @@
+1 Ivan 5.250000
+2 Nikola 4.75
+3 Martin 5.5
+4 Qvor 4.30
+5 Anna 3.50
