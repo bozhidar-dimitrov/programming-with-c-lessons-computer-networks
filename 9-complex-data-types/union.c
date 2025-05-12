@@ -34,6 +34,22 @@ int main(void) {
 
   //192.168.0.1
 
+  union ipAddress address1;
+  address1.octets[0] = 1;
+  address1.octets[1] = 0;
+  address1.octets[2] = 168;
+  address1.octets[3] = 192;
+
+  union ipAddress address2;
+  address2.octets[0] = 1;
+  address2.octets[1] = 0;
+  address2.octets[2] = 168;
+  address2.octets[3] = 192;
+
+  if (address1.asNumber == address2.asNumber) {
+    //The two ip addresses are equal
+  }
+
 
   return 0;
 }
