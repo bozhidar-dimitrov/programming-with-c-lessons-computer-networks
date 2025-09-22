@@ -1,3 +1,2 @@
 # programming-with-c-lessons-computer-networks
-Repository for the c programming course for the computer networks specialty of TUES
-Please choose a branch for the course year.
+Code from the TUES course "Programming with C - Computer Networks" for 2025-2026 school year.
