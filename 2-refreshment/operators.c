@@ -48,5 +48,8 @@ int main(void) {
   printf("D3 == %d\n", d3);
   printf("E3 == %d\n", e3);
 
+  --a3;
+  a3--;
+
   return 0;
 }
