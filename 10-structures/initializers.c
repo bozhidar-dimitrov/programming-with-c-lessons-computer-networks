@@ -58,12 +58,17 @@ int main(void) {
 
   struct student martin = {1, "Martin", 5.5};
   
-
   struct studentClass g9 = {
-    {{1, "Martin", 5.75}, {2, "Ivan", 5.75}},
+    {
+      {1, "Martin", 5.75}, {2, "Ivan", 5.75}
+    },
     'g',
     10,
-    {"Bozhidar", "Dimitrov", "Programming"}
+    {
+      "Bozhidar", 
+      "Dimitrov", 
+      "Programming"
+    }
   };
 
   return 0;
